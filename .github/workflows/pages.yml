@@ -1,0 +1,48 @@
+name: GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - working-directory: frontend/app
+        run: npm install --no-audit --no-fund
+      - name: Generate sitemap
+        shell: bash
+        run: |
+          REPO="${GITHUB_REPOSITORY#*/}"
+          OWNER="${GITHUB_REPOSITORY%%/*}"
+          cat > frontend/app/public/sitemap.xml <<EOF2
+          <?xml version="1.0" encoding="UTF-8"?>
+          <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            <url><loc>https://${OWNER}.github.io/${REPO}/</loc></url>
+          </urlset>
+          EOF2
+      - name: Export Expo web
+        working-directory: frontend/app
+        run: npm run build:web
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: frontend/app/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

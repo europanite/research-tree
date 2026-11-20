@@ -1,0 +1,14 @@
+services:
+  frontend_test:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile.test
+    environment:
+      CI: "1"
+    command: sh -c "npm run typecheck && npm test -- --ci --coverage"
+    volumes:
+      - ./reports/frontend:/app/coverage
+  backend_test:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile.test

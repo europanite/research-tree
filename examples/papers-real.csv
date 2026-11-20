@@ -1,0 +1,60 @@
+id,title,year,group,doi,url,first_author,source_type
+arxiv:1312.6199,Intriguing properties of neural networks,2013,AI Security,,https://arxiv.org/abs/1312.6199,Christian Szegedy,arXiv
+arxiv:1311.2901,Visualizing and Understanding Convolutional Networks,2013,XAI,,https://arxiv.org/abs/1311.2901,Matthew D Zeiler,arXiv
+arxiv:1412.6572,Explaining and Harnessing Adversarial Examples,2014,AI Security,,https://arxiv.org/abs/1412.6572,Ian J. Goodfellow,arXiv
+arxiv:1511.04599,DeepFool: a simple and accurate method to fool deep neural networks,2015,AI Security,,https://arxiv.org/abs/1511.04599,Seyed-Mohsen Moosavi-Dezfooli,arXiv
+arxiv:1511.07528,The Limitations of Deep Learning in Adversarial Settings,2015,AI Security,,https://arxiv.org/abs/1511.07528,Nicolas Papernot,arXiv
+doi:10.1371/journal.pone.0130140,On Pixel-Wise Explanations for Non-Linear Classifier Decisions by Layer-Wise Relevance Propagation,2015,XAI,https://doi.org/10.1371/journal.pone.0130140,https://doi.org/10.1371/journal.pone.0130140,Sebastian Bach,journal/conference
+arxiv:1610.02136,A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks,2016,AI Security,,https://arxiv.org/abs/1610.02136,Dan Hendrycks,arXiv
+arxiv:1602.02697,Practical Black-Box Attacks against Machine Learning,2016,AI Security,,https://arxiv.org/abs/1602.02697,Nicolas Papernot,arXiv
+arxiv:1608.04644,Towards Evaluating the Robustness of Neural Networks,2016,AI Security,,https://arxiv.org/abs/1608.04644,Nicholas Carlini,arXiv
+arxiv:1602.04938,"""Why Should I Trust You?"": Explaining the Predictions of Any Classifier",2016,XAI,,https://arxiv.org/abs/1602.04938,Marco Tulio Ribeiro,arXiv
+arxiv:1610.02391,Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization,2016,XAI,,https://arxiv.org/abs/1610.02391,Ramprasaath R. Selvaraju,arXiv
+arxiv:1606.03490,The Mythos of Model Interpretability,2016,XAI,,https://arxiv.org/abs/1606.03490,Zachary C. Lipton,arXiv
+arxiv:1712.09665,Adversarial Patch,2017,AI Security,,https://arxiv.org/abs/1712.09665,Tom B. Brown,arXiv
+arxiv:1708.06733,BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain,2017,AI Security,,https://arxiv.org/abs/1708.06733,Tianyu Gu,arXiv
+arxiv:1705.07204,Ensemble Adversarial Training: Attacks and Defenses,2017,AI Security,,https://arxiv.org/abs/1705.07204,Florian Tramèr,arXiv
+arxiv:1711.00851,Provable defenses against adversarial examples via the convex outer adversarial polytope,2017,AI Security,,https://arxiv.org/abs/1711.00851,Eric Wong,arXiv
+arxiv:1707.08945,Robust Physical-World Attacks on Deep Learning Models,2017,AI Security,,https://arxiv.org/abs/1707.08945,Kevin Eykholt,arXiv
+arxiv:1712.05526,Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning,2017,AI Security,,https://arxiv.org/abs/1712.05526,Xinyun Chen,arXiv
+arxiv:1706.06083,Towards Deep Learning Models Resistant to Adversarial Attacks,2017,AI Security,,https://arxiv.org/abs/1706.06083,Aleksander Madry,arXiv
+arxiv:1710.10547,Interpretation of Neural Networks is Fragile,2017,AI Security;XAI,,https://arxiv.org/abs/1710.10547,Amirata Ghorbani,arXiv
+arxiv:1705.07874,A Unified Approach to Interpreting Model Predictions,2017,XAI,,https://arxiv.org/abs/1705.07874,Scott Lundberg,arXiv
+arxiv:1703.01365,Axiomatic Attribution for Deep Networks,2017,XAI,,https://arxiv.org/abs/1703.01365,Mukund Sundararajan,arXiv
+arxiv:1708.08296,"Explainable Artificial Intelligence: Understanding, Visualizing and Interpreting Deep Learning Models",2017,XAI,,https://arxiv.org/abs/1708.08296,Wojciech Samek,arXiv
+arxiv:1711.11279,Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV),2017,XAI,,https://arxiv.org/abs/1711.11279,Been Kim,arXiv
+arxiv:1704.03296,Interpretable Explanations of Black Boxes by Meaningful Perturbation,2017,XAI,,https://arxiv.org/abs/1704.03296,Ruth Fong,arXiv
+arxiv:1706.03825,SmoothGrad: removing noise by adding noise,2017,XAI,,https://arxiv.org/abs/1706.03825,Daniel Smilkov,arXiv
+arxiv:1711.00867,The (Un)reliability of saliency methods,2017,XAI,,https://arxiv.org/abs/1711.00867,Pieter-Jan Kindermans,arXiv
+arxiv:1702.08608,Towards A Rigorous Science of Interpretable Machine Learning,2017,XAI,,https://arxiv.org/abs/1702.08608,Finale Doshi-Velez,arXiv
+arxiv:1807.01697,Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations,2018,AI Security,,https://arxiv.org/abs/1807.01697,Dan Hendrycks,arXiv
+arxiv:1812.04606,Deep Anomaly Detection with Outlier Exposure,2018,AI Security,,https://arxiv.org/abs/1812.04606,Dan Hendrycks,arXiv
+arxiv:1802.00420,Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples,2018,AI Security,,https://arxiv.org/abs/1802.00420,Anish Athalye,arXiv
+arxiv:1804.00792,Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks,2018,AI Security,,https://arxiv.org/abs/1804.00792,Ali Shafahi,arXiv
+arxiv:1805.12152,Robustness May Be at Odds with Accuracy,2018,AI Security,,https://arxiv.org/abs/1805.12152,Dimitris Tsipras,arXiv
+arxiv:1806.08049,On the Robustness of Interpretability Methods,2018,AI Security;XAI,,https://arxiv.org/abs/1806.08049,David Alvarez-Melis,arXiv
+arxiv:1806.10758,A Benchmark for Interpretability Methods in Deep Neural Networks,2018,XAI,,https://arxiv.org/abs/1806.10758,Sara Hooker,arXiv
+arxiv:1801.08640,Considerations When Learning Additive Explanations for Black-Box Models,2018,XAI,,https://arxiv.org/abs/1801.08640,Sarah Tan,arXiv
+arxiv:1810.03292,Sanity Checks for Saliency Maps,2018,XAI,,https://arxiv.org/abs/1810.03292,Julius Adebayo,arXiv
+arxiv:1811.10154,Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead,2018,XAI,,https://arxiv.org/abs/1811.10154,Cynthia Rudin,arXiv
+arxiv:1905.02175,"Adversarial Examples Are Not Bugs, They Are Features",2019,AI Security,,https://arxiv.org/abs/1905.02175,Andrew Ilyas,arXiv
+arxiv:1902.02918,Certified Adversarial Robustness via Randomized Smoothing,2019,AI Security,,https://arxiv.org/abs/1902.02918,Jeremy M Cohen,arXiv
+arxiv:1901.08573,Theoretically Principled Trade-off between Robustness and Accuracy,2019,AI Security,,https://arxiv.org/abs/1901.08573,Hongyang Zhang,arXiv
+arxiv:1906.07983,Explanations can be manipulated and geometry is to blame,2019,AI Security;XAI,,https://arxiv.org/abs/1906.07983,Ann-Kathrin Dombrowski,arXiv
+arxiv:1911.02508,Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods,2019,AI Security;XAI,,https://arxiv.org/abs/1911.02508,Dylan Slack,arXiv
+arxiv:1902.10186,Attention is not Explanation,2019,XAI,,https://arxiv.org/abs/1902.10186,Sarthak Jain,arXiv
+arxiv:1908.04626,Attention is not not Explanation,2019,XAI,,https://arxiv.org/abs/1908.04626,Sarah Wiegreffe,arXiv
+arxiv:1910.10045,"Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI",2019,XAI,,https://arxiv.org/abs/1910.10045,Alejandro Barredo Arrieta,arXiv
+arxiv:1910.01279,Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks,2019,XAI,,https://arxiv.org/abs/1910.01279,Haofan Wang,arXiv
+arxiv:2003.01690,Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks,2020,AI Security,,https://arxiv.org/abs/2003.01690,Francesco Croce,arXiv
+arxiv:2211.04780,On the Robustness of Explanations of Deep Neural Network Models: A Survey,2022,AI Security;XAI,,https://arxiv.org/abs/2211.04780,Amlan Jyoti,arXiv
+doi:10.1016/j.ins.2023.03.020,Explanation leaks: Explanation-guided model extraction attacks,2023,AI Security;XAI,https://doi.org/10.1016/j.ins.2023.03.020,https://doi.org/10.1016/j.ins.2023.03.020,Anli Yan,journal/conference
+doi:10.1016/j.inffus.2024.102303,Adversarial attacks and defenses in explainable artificial intelligence: A survey,2024,AI Security;XAI,https://doi.org/10.1016/j.inffus.2024.102303,https://doi.org/10.1016/j.inffus.2024.102303,Hubert Baniecki,journal/conference
+doi:10.1002/widm.1567,Adversarial Attacks in Explainable Machine Learning: A Survey of Threats Against Models and Humans,2024,AI Security;XAI,https://doi.org/10.1002/widm.1567,https://doi.org/10.1002/widm.1567,Jon Vadillo,journal/conference
+doi:10.1103/physreve.110.054310,Adversarial training and attribution methods enable evaluation of robustness and interpretability of deep learning models for image classification,2024,AI Security;XAI,https://doi.org/10.1103/PhysRevE.110.054310,https://doi.org/10.1103/PhysRevE.110.054310,Flávio A. O. Santos,journal/conference
+doi:10.1609/aies.v7i1.31679,On the Trade-offs between Adversarial Robustness and Actionable Explanations,2024,AI Security;XAI,https://doi.org/10.1609/aies.v7i1.31679,https://doi.org/10.1609/aies.v7i1.31679,Satyapriya Krishna,journal/conference
+doi:10.1609/aaai.v38i3.28047,Rethinking Robustness of Model Attributions,2024,AI Security;XAI,https://doi.org/10.1609/aaai.v38i3.28047,https://doi.org/10.1609/aaai.v38i3.28047,Sandesh Kamath,journal/conference
+doi:10.24963/ijcai.2024/894,Robust Counterfactual Explanations in Machine Learning: A Survey,2024,AI Security;XAI,https://doi.org/10.24963/ijcai.2024/894,https://doi.org/10.24963/ijcai.2024/894,Junqi Jiang,journal/conference
+doi:10.1109/sp54263.2024.00021,SoK: Explainable Machine Learning in Adversarial Environments,2024,AI Security;XAI,https://doi.org/10.1109/SP54263.2024.00021,https://doi.org/10.1109/SP54263.2024.00021,Maximilian Noppel,journal/conference
+doi:10.1016/j.engappai.2024.109681,Advancing explainability of adversarial trained Convolutional Neural Networks for robust engineering applications,2025,AI Security;XAI,https://doi.org/10.1016/j.engappai.2024.109681,https://doi.org/10.1016/j.engappai.2024.109681,Dehua Zhou,journal/conference
+doi:10.1007/s10462-025-11141-w,An assessment framework for explainable AI with applications to cybersecurity,2025,AI Security;XAI,https://doi.org/10.1007/s10462-025-11141-w,https://doi.org/10.1007/s10462-025-11141-w,Maria Carla Calzarossa,journal/conference

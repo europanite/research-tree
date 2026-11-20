@@ -1,0 +1,29 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      CI: "0"
+      EXPO_TUNNEL: "false"
+      EXPO_DEVTOOLS_LISTEN_ADDRESS: "0.0.0.0"
+    volumes:
+      - ./frontend/app:/app
+      - /app/node_modules
+    command: npm run start
+  paper_backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      HF_HOME: /models
+      OPENALEX_API_KEY: ${OPENALEX_API_KEY:-}
+    volumes:
+      - paper_models:/models
+    restart: unless-stopped
+volumes:
+  paper_models:

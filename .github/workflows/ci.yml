@@ -1,0 +1,66 @@
+name: CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  algorithms:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Linkage regression tests
+        run: node --test tests/large-clustering.test.mjs
+      - name: Unrooted paper topology tests
+        run: node --experimental-default-type=module --test tests/unroot-paper.test.mjs
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install frontend dependencies
+        working-directory: frontend/app
+        run: npm install --no-audit --no-fund
+      - name: TypeScript
+        working-directory: frontend/app
+        run: npm run typecheck
+      - name: Unit tests
+        working-directory: frontend/app
+        run: npm test -- --ci --coverage
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install paper backend test dependencies (without heavy inference models)
+        run: pip install -r backend/requirements-test.txt
+      - name: Paper backend tests
+        run: PYTHONPATH=backend python -m pytest -q backend/tests
+  export:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - working-directory: frontend/app
+        run: npm install --no-audit --no-fund
+      - name: Web export smoke
+        working-directory: frontend/app
+        run: npm run build:web
+      - uses: actions/upload-artifact@v6
+        with:
+          name: expo-web-dist
+          path: frontend/app/dist

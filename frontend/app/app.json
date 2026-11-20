@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Semantic Tree",
+    "slug": "semantic-tree",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#080c17" }, "edgeToEdgeEnabled": true },
+    "web": { "favicon": "./assets/favicon.png", "output": "single", "bundler": "metro", "name": "Semantic Tree", "shortName": "Tree" }
+  }
+}

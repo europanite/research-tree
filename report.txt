@@ -1,0 +1,98 @@
+04 · Shared-field papers (0)
+Records returned for multiple searches or assigned multiple CSV groups, indicating potentially direct overlap.
+No direct multi-group records in this sample.
+05 · Topic clusters (10)
+Labels are automatically extracted keywords, not verified ontology terms. Click a cluster to inspect its papers.
+
+xai / explainable / systems · 493 papers +
+AI Security: 5 · XAI: 488
+
+adversarial / machine / attacks · 490 papers +
+AI Security: 485 · XAI: 5
+
+die / der / werden · 5 papers +
+AI Security: 3 · XAI: 2
+
+covert / signals / communication · 3 papers +
+AI Security: 3
+
+offloading / mobile / computation · 2 papers +
+AI Security: 1 · XAI: 1
+
+elasticity / alpha / lung · 2 papers +
+AI Security: 2
+
+educational / information / virtual · 2 papers +
+XAI: 2
+
+papers / reviewers / machine · 1 papers +
+AI Security: 1
+
+entrepreneurship / institutional / dimensions · 1 papers +
+XAI: 1
+
+detection / banknote / counterfeit · 1 papers +
+XAI: 1
+06 · Cross-field candidates (30)
+Top cosine-similar pairs belonging to different input query groups. These are not automatically research gaps.
+0.862 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Recent Advances in Trustworthy Explainable Artificial Intelligence: Status, Challenges, and Perspectives
+0.853 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Attacks and Defenses in Explainable Artificial Intelligence
+0.836 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence for Cybersecurity
+0.833 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Black Box Attacks on Explainable Artificial Intelligence(XAI) methods in Cyber Security
+0.822 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+A Survey on Explainable Artificial Intelligence for Cybersecurity
+0.818 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research
+0.810 · AI Security ↔ XAI
+A Comprehensive Review on Adversarial Machine Learning and XAI for Network Intrusion Detection
+A Survey on Explainable Artificial Intelligence for Cybersecurity
+0.808 · AI Security ↔ XAI
+A Comprehensive Review on Adversarial Machine Learning and XAI for Network Intrusion Detection
+Attacks and Defenses in Explainable Artificial Intelligence
+0.807 · AI Security ↔ XAI
+Adversarial Machine Learning for Robust Cybersecurity: Strengthening Deep Neural Architectures against Evasion, Poisoning, and Model-Inference Attacks
+Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research
+0.804 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence as a Cybersecurity Aid
+0.800 · AI Security ↔ XAI
+Adversarial Machine Learning and Robust Explainability
+Attacks and Defenses in Explainable Artificial Intelligence
+0.799 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence for Resilient Security Applications in the Internet of Things
+0.797 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable artificial intelligence in threat detection
+0.797 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence and Cybersecurity: A Systematic Literature Review
+0.794 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence in CyberSecurity: A Survey
+0.793 · AI Security ↔ XAI
+A Comprehensive Review on Adversarial Machine Learning and XAI for Network Intrusion Detection
+Explainable Artificial Intelligence Applications in Cyber Security: State-of-the-Art in Research
+0.792 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable Artificial Intelligence in Cyber Defense-A Review
+0.785 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+Explainable artificial intelligence for cybersecurity: a literature survey
+0.779 · AI Security ↔ XAI
+Explainable AI for Adversarial Machine Learning: Enhancing Transparency and Trust in Cyber Security
+A systematic review on the integration of explainable artificial intelligence in intrusion detection systems to enhancing transparency and interpretability in cybersecurity
+0.778 · AI Security ↔ XAI
+Adversarial Machine Learning and Robust Explainability
+Explainable artificial intelligence in threat detection
+Known in-corpus citation edges: 2196. Citation direction is recorded in JSON, not used to impose ancestry.
