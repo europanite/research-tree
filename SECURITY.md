@@ -1,14 +1,38 @@
 # Security Policy
 
-Only the current `main` branch is supported.
+## Supported Versions
 
-## Reporting vulnerabilities
+The following table shows which versions of `research-tree` are currently being supported with security updates.
 
-Report relevant issues through the GitHub repository's private vulnerability reporting feature if it is enabled; avoid publishing exploit details before resolution.
+| Version | Supported          |
+|---------|--------------------|
+| main    | :white_check_mark: |
 
-## Browser privacy
+We only provide security updates and fixes for the latest code on the **main** branch.
 
-- Word lists and generated embeddings are processed locally; they are not sent to an inference API.
-- The browser downloads JavaScript and ONNX model files from external CDN / Hugging Face hosts on first use.
-- Review JavaScript supply-chain dependencies and CDN usage before processing sensitive vocabulary. For fully air-gapped deployments, vendor the model and runtime assets locally.
-- No authentication, tokens, or application server are used.
+---
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability within this project, please help us keep the community safe by following these steps:
+
+- Provide as much detail as possible:
+   - A clear description of the vulnerability
+   - Steps to reproduce the issue
+   - The potential impact
+   - Any suggested fixes or mitigations
+
+---
+
+## Security Best Practices for Users
+
+- Always pull the latest image or rebuild the environment to ensure patched dependencies.
+- Avoid exposing ports publicly unless necessary.
+- Use strong passwords and secrets when connecting to external resources.
+- Regularly update Python packages and system dependencies.
+
+---
+
+## Acknowledgements
+
+We deeply appreciate the efforts of security researchers and contributors who help us improve the security of `research-tree`.

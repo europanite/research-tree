@@ -1,12 +1,8 @@
-# [Semantic Tree](https://github.com/europanite/semantic-tree)
+# [research-tree](https://github.com/europanite/research-tree)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Expo_Web%20%7C%20React_Native_Web-blue)
-[![CI](https://github.com/europanite/semantic-tree/actions/workflows/ci.yml/badge.svg)](https://github.com/europanite/semantic-tree/actions/workflows/ci.yml)
-[![Docker](https://github.com/europanite/semantic-tree/actions/workflows/docker.yml/badge.svg)](https://github.com/europanite/semantic-tree/actions/workflows/docker.yml)
-[![GitHub Pages](https://github.com/europanite/semantic-tree/actions/workflows/pages.yml/badge.svg)](https://github.com/europanite/semantic-tree/actions/workflows/pages.yml)
 
-!["web_ui"](./assets/images/web_ui.png)
 
 ## PlayGround
 
