@@ -243,7 +243,7 @@ async def expand_citation_neighborhood(seeds: list[Paper], budget: int) -> list[
         for offset in range(0, max_ids, 50):
             batch = candidates[offset: offset + 50]
             params = {
-                'filter': 'id:' + '|'.join(ref for ref, _groups in batch),
+                'filter': 'openalex:' + '|'.join(ref for ref, _groups in batch),
                 'per_page': 100,
                 'select': 'id,title,display_name,doi,publication_year,abstract_inverted_index,cited_by_count,referenced_works',
             }

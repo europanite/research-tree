@@ -52,7 +52,7 @@ def test_one_hop_citations_discover_unmentioned_works_and_keep_source_abstracts(
         async def __aexit__(self,*_):pass
         async def get(self,url,params):
             calls.append(params.copy())
-            assert params['filter'].startswith('id:W12|')
+            assert params['filter'].startswith('openalex:W12|')
             class Response:
                 def raise_for_status(self):pass
                 def json(self):return {'results':[record(12),record(13,abstract=False),record(14)]}
